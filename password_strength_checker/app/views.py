@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, render_template  # Updated import
+from flask import Blueprint, request, jsonify, render_template  
 import re
 
 app = Blueprint('app', __name__)
@@ -14,7 +14,7 @@ def is_strong_password(password):
 
 @app.route('/')
 def index():
-    return render_template('index.html')  # Use render_template
+    return render_template('index.html')  # render_template
 
 @app.route('/check-password', methods=['POST'])
 def check_password():
