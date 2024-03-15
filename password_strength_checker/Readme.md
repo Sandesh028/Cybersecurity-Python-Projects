@@ -32,7 +32,7 @@ This Password Strength Checker is a web application designed to assess the stren
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/<your-username>/password-strength-checker.git
+   git clone [https://github.com/Sandesh028/Cybersecurity-Python-Projects/tree/main/password_strength_checker]
    ```
 2. Navigate to the project directory:
    ```sh
